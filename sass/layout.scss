@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.xanda-react-trial {
+  font-family: "Helvetica";
+  h1 {
+    font-size: 24px;
+    color: #81b4de;
+  }
+  .btn {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .link-2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+
+  .continue {
+    width: 80%;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+  }
+
+  .flex {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .header {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    background-image: url("/assets/background-image.png");
+    background-size: cover;
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .container {
+      width: 1100px;
+      margin: 20px auto;
+    }
+
+    .logo-image {
+      width: 300px;
+    }
+  }
+
+  .products-container {
+    position: relative;
+    display: grid;
+    width: 1000px;
+    margin: 10px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .product {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 500px;
+      height: 350px;
+      background-color: #32cd32;
+      padding: 20px 0;
+      gap: 2rem;
+    }
+
+    .product-info {
+      h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      p {
+        padding: 0 8px;
+      }
+    }
+
+    .coins {
+      width: 30px;
+    }
+
+    .flex-coins {
+      display: flex;
+      padding-top: 20px;
+      // justify-content: center;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .p-img {
+      // width: 150px;
+    }
+
+    .bg-image {
+      width: 100px;
+    }
+  }
+
+  .basket {
+    width: 100%;
+    height: 730px;
+    background-color: #32cd32;
+    margin-top: 10px;
+    position: relative;
+    padding: 10px 6px;
+
+    h3 {
+      font-size: 13px;
+      padding: 10px 0;
+    }
+
+    .total {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .games-basket {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .game-price {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      img {
+        width: 40px;
+      }
+    }
+
+    h2 {
+      padding: 20px 30px;
+      font-size: 34px;
+    }
+
+    .empty {
+      position: absolute;
+      top: 200px;
+      left: 150px;
+    }
+  }
+}
